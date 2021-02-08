@@ -15,4 +15,14 @@ export class SidebarComponent {
     return this.historialBusqueda.historia
   }
 
+  buscar( termino:string ) {
+    console.log(termino)
+
+    this.historialBusqueda.buscarGifs(termino);
+
+
+
+  }
+
+
 }
